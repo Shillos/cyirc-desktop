@@ -20,6 +20,7 @@ You should just need to run `./build.sh` but if that fails run the following com
     cp client-defaults/package.json client/package.json
     cp client-defaults/main.js client/main.js
     cp client-defaults/kiwiirclogo.png client/kiwiirclogo.png
+    cp -r client-defaults/img client/img
     cp -r client-defaults/plugins client/plugins
     cd client/
     npm install
