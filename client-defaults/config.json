@@ -11,9 +11,16 @@
 	"state_key":"kiwi",
 	"themes": [
 		{ "name": "Default", "url": "static/themes/default" },
-		{ "name": "Dark", "url": "static/themes/dark" }
+		{ "name": "Dark", "url": "static/themes/dark" },
+		{ "name": "Coffee", "url": "static/themes/coffee" },
+        	{ "name": "GrayFox", "url": "static/themes/grayfox" },
+        	{ "name": "Nightswatch", "url": "static/themes/nightswatch" },
+        	{ "name": "Osprey", "url": "static/themes/osprey" },
+        	{ "name": "Radioactive", "url": "static/themes/radioactive" },
+        	{ "name": "Sky", "url": "static/themes/sky" }
 	],
 	"startupOptions" : {
+		"greetingText": "Welcome!",
 		"remember_buffers":true,
 		"server": "irc.freenode.com",
 		"port": 6697,
@@ -21,6 +28,9 @@
 		"direct": true,
 		"channel": "#KiwiIRC",
 		"nick": "KiwiIRC-?"
+		"buttonText": "Start",
+		"infoContent": "After connect type /list",
+		"infoBackground": "img/background.jpg"
 	},
 	"embedly": {
 		"key": ""
