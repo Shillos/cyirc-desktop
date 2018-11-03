@@ -27,7 +27,7 @@
 		"tls": true,
 		"direct": true,
 		"channel": "#KiwiIRC",
-		"nick": "KiwiIRC-?"
+		"nick": "KiwiIRC-?",
 		"buttonText": "Start",
 		"infoContent": "After connect type /list",
 		"infoBackground": "img/background.jpg"
