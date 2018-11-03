@@ -3,7 +3,7 @@
   "author": {
     "name": "KiwiIRC",
     "email": "",
-    "url": "https://github.com/kiwiirc/kiwiirc-desktop",
+    "url": "https://github.com/kiwiirc/kiwiirc",
     "homepage": "https://kiwiirc.com"
   },
   "description": "A desktop client based on the KiwiIRC web client.",
