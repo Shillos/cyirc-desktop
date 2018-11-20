@@ -1,4 +1,4 @@
-const electron = require('electron')
+const electron = require('electron');
 // Module to control application life.
 const app = electron.app;
 const Tray = electron.Tray;
@@ -8,13 +8,13 @@ app.showExitPrompt = true;
 app.commandLine.appendSwitch('explicitly-allowed-ports', '6667,6697');
 const session = electron.session;
 // Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow
+const BrowserWindow = electron.BrowserWindow;
 const ipcMain = electron.ipcMain;
 var openUrl = require("openurl");
 var os = require("os");
 var preventQuit = true;
-const path = require('path')
-const url = require('url')
+const path = require('path');
+const url = require('url');
 const notify = require("node-notifier");
 
 var yummy_cookies ={};
@@ -109,11 +109,11 @@ app.on('ready', function(){
     },
     {
       label: 'Show/Hide Window',
-      click: function(){ mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show() }
+      click: function(){ mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show(); }
     }
   ]);
   tray.on('click', () => {
-    mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show()
+    mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show();
   });
 
   tray.setToolTip('CyIRC');
