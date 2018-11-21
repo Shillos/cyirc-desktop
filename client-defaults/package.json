@@ -1,13 +1,13 @@
 {
-  "name": "KiwiIRC-Desktop",
+  "name": "CyIRC-Desktop",
   "author": {
-    "name": "KiwiIRC",
-    "email": "",
-    "url": "https://github.com/kiwiirc/kiwiirc",
-    "homepage": "https://kiwiirc.com"
+    "name": "CyIRC",
+    "email": "info@cyirc.org",
+    "url": "https://github.com/Shillos/cyirc-electron",
+    "homepage": "https://cyirc.org"
   },
   "description": "A desktop client based on the KiwiIRC web client.",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "main": "main.js",
   "dependencies": {
     "irc-framework": "^4.0.0",
@@ -16,4 +16,4 @@
     "node-notifier":"^5.3.0",
     "striptags":"^3.1.1"
   }
-};
+}

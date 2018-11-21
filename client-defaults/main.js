@@ -40,7 +40,7 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 720,
-    icon: path.join(__dirname, 'kiwiirclogo.png'),
+    icon: path.join(__dirname, 'cyirclogo.png'),
   });
 
   // and load the index.html of the app.
@@ -101,7 +101,7 @@ mainWindow.on('close', function(e) { //   <---- Catch close event
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', function(){
-  tray = new Tray(path.join(__dirname, 'kiwiirclogo.png'));
+  tray = new Tray(path.join(__dirname, 'cyirclogo.png'));
   const contextMenu = Menu.buildFromTemplate([
     {
       label: 'Quit',

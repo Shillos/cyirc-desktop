@@ -6,7 +6,7 @@ kiwi.plugin('native-notifications', function(kiwi) {
         {
             msg = event.message.toString();
             notify.notify({
-                title:"KiwiIRC - Private message from " + event.nick,
+                title:"CyIRC - Private message from " + event.nick,
                 message: striptags(msg,[],"")
             });
             var audio = new Audio('static/highlight.mp3');
@@ -17,7 +17,7 @@ kiwi.plugin('native-notifications', function(kiwi) {
         {
             msg = event.message.toString();
             notify.notify({
-                title:"KiwiIRC - New highlight from " + event.nick,
+                title:"CyIRC - New highlight from " + event.nick,
                 message:striptags(msg,[],"")
             });
             var audio = new Audio('static/highlight.mp3');
