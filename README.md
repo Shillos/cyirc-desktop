@@ -1,5 +1,5 @@
 # Notice
-This project is a work in progress.
+This project is build for the use of CyIRC Network as a desktop client.
 
 # Before building
 Before you can build you will need to [install yarn](https://yarnpkg.com/lang/en/docs/install/) and [nodejs](https://nodejs.org/en/download/package-manager/)
@@ -19,7 +19,7 @@ You should just need to run `./build.sh` but if that fails run the following com
     cp client-defaults/config.json client/static/config.json
     cp client-defaults/package.json client/package.json
     cp client-defaults/main.js client/main.js
-    cp client-defaults/kiwiirclogo.png client/kiwiirclogo.png
+    cp client-defaults/cyirclogo.png client/cyirclogo.png
     cp -r client-defaults/img client/img
     cp -r client-defaults/plugins client/plugins
     cd client/
