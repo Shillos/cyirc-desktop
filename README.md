@@ -1,8 +1,8 @@
 # Notice
 This project is build for the use of CyIRC Network as a desktop client.
 
-# Before building
-Before you can build you will need to [install yarn](https://yarnpkg.com/lang/en/docs/install/) and [nodejs](https://nodejs.org/en/download/package-manager/)
+# Prerequisites
+Before you can build you will need to [install nodejs](https://nodejs.org/en/download/package-manager/) and then [install yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 # Building
 You should just need to run `./build.sh` but if that fails run the following commands:
