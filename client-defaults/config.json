@@ -54,7 +54,7 @@
 		"show_nick_changes": true,
 		"show_timestamps": true,
 		"show_topics": true,
-		"timestamp_format": %H:%M:%S,
+		"timestamp_format": "%H:%M:%S",
 		"who_loop": true,
 		"flash_title": true,
 		"share_typing": true,
