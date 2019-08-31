@@ -26,7 +26,7 @@
 		"port": 6697,
 		"tls": true,
 		"direct": true,
-		"channel": "#cyirc",
+		"channel": "#cyprus",
 		"nick": "user?",
 		"version": "CyIRC",
 		"messageLayout": "modern",
@@ -36,7 +36,7 @@
 		"extra_formatting": true,
 		"quit": "Quit",
 		"buttonText": "Start",
-		"infoContent": "After connect type /list",
+		"infoContent": "CyIRC Rocks!",
 		"infoBackground": "img/background.jpg"
 	},
 	"embedly": {
