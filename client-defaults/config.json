@@ -15,9 +15,9 @@
 		{ "name": "Coffee", "url": "static/themes/coffee" },
   		{ "name": "GrayFox", "url": "static/themes/grayfox" },
 		{ "name": "Nightswatch", "url": "static/themes/nightswatch" },
-    		{ "name": "Osprey", "url": "static/themes/osprey" },
-    		{ "name": "Radioactive", "url": "static/themes/radioactive" },
-    		{ "name": "Sky", "url": "static/themes/sky" }
+		{ "name": "Osprey", "url": "static/themes/osprey" },
+		{ "name": "Radioactive", "url": "static/themes/radioactive" },
+		{ "name": "Sky", "url": "static/themes/sky" }
 		],
 	"startupOptions" : {
 		"greetingText": "Welcome!",
