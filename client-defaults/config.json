@@ -39,10 +39,10 @@
 		"infoBackground": "img/background.jpg"
 	},
 	"buffers": {
-        	"show_hostnames": true,
-        	"show_realnames": true,
-        	"show_emoticons": true,
-        	"traffic_as_activity": true,
+		"show_hostnames": true,
+		"show_realnames": true,
+		"show_emoticons": true,
+		"traffic_as_activity": true,
 		"auto_reconnect": false,
 		"show_joinparts": true,
 		"extra_formatting": true,
