@@ -33,7 +33,6 @@
 		"direct": true,
 		"channel": "#cyprus",
 		"nick": "user?",
-		"version": "1.0.2",
 		"buttonText": "Start",
 		"infoContent": "CyIRC Rocks!",
 		"infoBackground": "img/background.jpg"
