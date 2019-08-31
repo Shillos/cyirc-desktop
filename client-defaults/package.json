@@ -6,14 +6,14 @@
     "url": "https://github.com/Shillos/cyirc-electron",
     "homepage": "https://cyirc.org"
   },
-  "description": "A desktop client based on the KiwiIRC web client.",
-  "version": "1.0.0",
+  "description": "A desktop client for CyIRC.",
+  "version": "1.0.2",
   "main": "main.js",
   "dependencies": {
-    "irc-framework": "^4.0.0",
+    "irc-framework": "^4.4.0",
     "os": "^0.1.1",
     "openurl":"^1.1.1",
-    "node-notifier":"^5.3.0",
+    "node-notifier":"^5.4.3",
     "striptags":"^3.1.1"
   }
 }
