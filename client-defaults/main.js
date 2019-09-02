@@ -75,7 +75,7 @@ mainWindow.on('close', function(e) { //   <---- Catch close event
           type: 'question',
           buttons: ['Yes', 'No'],
           title: 'Confirm',
-          message: 'You will be disconnected from all of your networks and channels, are you sure that you would like to exit CyIRC?'
+          message: 'Are you sure that you would like to exit CyIRC?'
       }, function (response) {
           if (response === 0) { // Runs the following if 'Yes' is clicked
               preventQuit=false;
