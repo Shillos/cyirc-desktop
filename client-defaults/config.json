@@ -12,7 +12,7 @@
 		{ "name": "Default", "url": "static/themes/default" },
 		{ "name": "Dark", "url": "static/themes/dark" },
 		{ "name": "Coffee", "url": "static/themes/coffee" },
-  	{ "name": "GrayFox", "url": "static/themes/grayfox" },
+		{ "name": "GrayFox", "url": "static/themes/grayfox" },
 		{ "name": "Nightswatch", "url": "static/themes/nightswatch" },
 		{ "name": "Osprey", "url": "static/themes/osprey" },
 		{ "name": "Radioactive", "url": "static/themes/radioactive" },
@@ -71,29 +71,29 @@
 		{"name": "title", "url":"plugins/title.js"}
 	],
 		"conference":{
-				"server": "meet.jit.si",
-				"secure": false,
-				"enabledInChannels": [ "*" ],
-				"joinText": "has joined the conference",
-				"inviteText": "is inviting you to a private call.",
-				"joinButtonText": "Join now!",
-				"disabledText": "Sorry. The sysop has not enabled conferences in this channel.",
-				"queries": true,
-				"channels": true,
-				"showLink": true,
-				"useLinkShortener": true,
-				"linkShortenerAPIToken": "API_KEY_HERE",
-				"linkShortenerURL": "https://x0.no/api/",
-				"interfaceConfigOverwrite": {
-								"SHOW_JITSI_WATERMARK": false,
-								"SHOW_WATERMARK_FOR_GUESTS": false,
-								"TOOLBAR_BUTTONS": [
-												"microphone", "camera", "fullscreen", "fodeviceselection", "hangup",
-												"settings", "videoquality", "filmstrip",
-												"stats", "shortcuts"
-											],
+			"server": "meet.jit.si",
+			"secure": false,
+			"enabledInChannels": [ "*" ],
+			"joinText": "has joined the conference",
+			"inviteText": "is inviting you to a private call.",
+			"joinButtonText": "Join now!",
+			"disabledText": "Sorry. The sysop has not enabled conferences in this channel.",
+			"queries": true,
+			"channels": true,
+			"showLink": true,
+			"useLinkShortener": true,
+			"linkShortenerAPIToken": "API_KEY_HERE",
+			"linkShortenerURL": "https://x0.no/api/",
+			"interfaceConfigOverwrite": {
+				"SHOW_JITSI_WATERMARK": false,
+				"SHOW_WATERMARK_FOR_GUESTS": false,
+				"TOOLBAR_BUTTONS": [
+					"microphone", "camera", "fullscreen", "fodeviceselection", "hangup",
+					"settings", "videoquality", "filmstrip",
+					"stats", "shortcuts"
+					],
 				},
 				"configOverwrite": {
-							}
 				}
+			}
 }
