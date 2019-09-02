@@ -64,9 +64,36 @@
 	},
 	"plugins": [
 		{"name": "emoji-js", "url": "plugins/emoji.js"},
+		{"name": "conference", "url": "plugins/plugin-conference.min.js"},
 		{"name": "replace-emoji", "url": "plugins/replace-emoji.js"},
 		{"name": "sysinfo", "url": "plugins/sysinfo.js"},
 		{"name": "nativesocks", "url": "plugins/nativesocks.js"},
 		{"name": "title", "url":"plugins/title.js"}
-	]
+	],
+		"conference":{
+				"server": "meet.jit.si",
+				"secure": false,
+				"enabledInChannels": [ "*" ],
+				"joinText": "has joined the conference",
+				"inviteText": "is inviting you to a private call.",
+				"joinButtonText": "Join now!",
+				"disabledText": "Sorry. The sysop has not enabled conferences in this channel.",
+				"queries": true,
+				"channels": true,
+				"showLink": true,
+				"useLinkShortener": true,
+				"linkShortenerAPIToken": "API_KEY_HERE",
+				"linkShortenerURL": "https://x0.no/api/",
+				"interfaceConfigOverwrite": {
+								"SHOW_JITSI_WATERMARK": false,
+								"SHOW_WATERMARK_FOR_GUESTS": false,
+								"TOOLBAR_BUTTONS": [
+												"microphone", "camera", "fullscreen", "fodeviceselection", "hangup",
+												"settings", "videoquality", "filmstrip",
+												"stats", "shortcuts"
+											],
+				},
+				"configOverwrite": {
+							}
+				}
 }
