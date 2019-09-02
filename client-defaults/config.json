@@ -65,6 +65,7 @@
 	"plugins": [
 		{"name": "emoji-js", "url": "plugins/emoji.js"},
 		{"name": "conference", "url": "plugins/plugin-conference.min.js"},
+		{"name": "more_channels", "url": "plugins/plugin-more_channels.html"},
 		{"name": "replace-emoji", "url": "plugins/replace-emoji.js"},
 		{"name": "sysinfo", "url": "plugins/sysinfo.js"},
 		{"name": "nativesocks", "url": "plugins/nativesocks.js"},
