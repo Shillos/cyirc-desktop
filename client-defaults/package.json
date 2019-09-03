@@ -3,7 +3,7 @@
   "author": {
     "name": "CyIRC",
     "email": "info@cyirc.org",
-    "url": "https://github.com/Shillos/cyirc-electron",
+    "url": "https://github.com/Shillos/cyirc-desktop",
     "homepage": "https://cyirc.org"
   },
   "description": "A desktop client for CyIRC.",
