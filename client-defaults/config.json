@@ -66,11 +66,17 @@
 		{"name": "emoji-js", "url": "plugins/emoji.js"},
 		{"name": "conference", "url": "plugins/plugin-conference.min.js"},
 		{"name": "more_channels", "url": "plugins/plugin-more_channels.html"},
+		{"name": "giphy", "url": "plugins/plugin-giphy.html"},
+		{"name": "imgur", "url": "plugins/plugin-imgur.html"},
 		{"name": "replace-emoji", "url": "plugins/replace-emoji.js"},
 		{"name": "sysinfo", "url": "plugins/sysinfo.js"},
 		{"name": "nativesocks", "url": "plugins/nativesocks.js"},
-		{"name": "title", "url":"plugins/title.js"}
+		{"name": "title", "url":"plugins/title.js"},
+		{"name": "radio", "url": "plugins/plugin-radio.html"}
 	],
+		"plugin-radio": {
+			"url": "plugins/stations.json"
+		},
 		"conference":{
 			"server": "meet.jit.si",
 			"secure": false,

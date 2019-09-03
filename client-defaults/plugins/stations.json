@@ -1,0 +1,80 @@
+[
+        {
+        "name": "113 FM Radio",
+        "image": "https://cdn-radiotime-logos.tunein.com/s239862q.png",
+        "source": "http://113fm-edge2.cdnstream.com:80/1727_128",
+        "description": "Los Angeles, CA, USA"
+        },
+        {
+        "name": "Dance Wave Retro!",
+        "image": "https://static.radio.net/images/broadcasts/e3/ef/39943/2/c175.png",
+        "source": "http://78.31.65.20:8080/retrodance.mp3",
+        "description": "Budapest, Hungary"
+        },
+        {
+        "name": "Super Club Radio",
+        "image": "https://www.liveonlineradio.net/wp-content/uploads/2018/10/super-club-radio.jpg",
+        "source": "http://64.71.79.181:4272/stream2",
+        "description": "Cyprus @ www.superclub-radio.com IRC @ #superclub on CyIRC"
+        },
+        {
+        "name": "Kit Radio",
+        "image": "https://i.imgur.com/lucQsYb.jpg",
+        "source": "http://109.236.85.141:7052/stream2",
+        "description": "Cyprus @ www.kit-radio.com"
+        },
+        {
+        "name": "EuropaFM",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_Europa_FM_2018.png",
+        "source": "http://astreaming.europafm.ro:8000/europafm_mp3_64k",
+        "description": "Bucarest, Romania"
+        },
+        {
+        "name": "Zenith FM",
+        "image": "https://www.liveonlineradio.net/wp-content/uploads/2013/04/Zenith-Radio-96.4.jpg",
+        "source": "http://eco.onestreaming.com:8023/stream",
+        "description": "Dali, Cyprus"
+        },
+        {
+        "name": "Mix FM",
+        "image": "http://www.mixfmradio.com/assets/images/mixfm_logo.jpg",
+        "source": "http://eco.onestreaming.com:8127/stream",
+        "description": "Nicosia, Cyprus"
+        },
+        {
+        "name": "Kiss FM",
+        "image": "https://kissfm.com.cy/wp-content/uploads/2016/04/Untitled-5.png",
+        "source": "http://r1.phileradio.com:8193/89FM",
+        "description": "Nicosia, Cyprus"
+        },
+        {
+        "name": "Active Radio",
+        "image": "https://activeradio.com.cy/wp-content/uploads/2017/03/logo.png",
+        "source": "http://r1.phileradio.com:8193/active",
+        "description": "Nicosia, Cyprus"
+        },
+        {
+        "name": "Sfera FM",
+        "image": "https://cdn-radiotime-logos.tunein.com/s73570d.png",
+        "source": "http://r1.phileradio.com:8193/sfera",
+        "description": "Nicosia, Cyprus"
+        },
+        {
+        "name": "Radio Navagio",
+        "image": "https://www.radio-navagio.ml/wpimages/wpdac6fd1e_06.png",
+        "source": "http://51.77.124.144:8045/stream",
+        "description": "Cyprus"
+        },
+		{
+        "name": "Radio Proto",
+        "image": "http://www.radioproto.com.cy/sites/default/files/radio-proto-logo-01.png",
+        "source": "http://eco.onestreaming.com:8191/stream",
+        "description": "Nicosia, Cyprus"
+        },
+		{
+        "name": "Super FM 104.8",
+        "image": "http://www.superfmradio.com/n/wp-content/uploads/2018/10/superlogorl.jpg",
+        "source": "http://eco.onestreaming.com:8175/stream",
+        "description": "Nicosia, Cyprus"
+        }
+]
