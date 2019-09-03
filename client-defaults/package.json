@@ -1,14 +1,18 @@
 {
   "name": "CyIRC-Desktop",
+  "main": "main.js",
+  "version": "1.0.2",
+  "description": "A desktop client for CyIRC.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shillos/cyirc-desktop"
+  },
+  "license": "Apache 2.0",
   "author": {
     "name": "CyIRC",
     "email": "info@cyirc.org",
-    "url": "https://github.com/Shillos/cyirc-desktop",
     "homepage": "https://cyirc.org"
   },
-  "description": "A desktop client for CyIRC.",
-  "version": "1.0.2",
-  "main": "main.js",
   "dependencies": {
     "irc-framework": "^4.4.0",
     "os": "^0.1.1",
