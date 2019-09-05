@@ -4,7 +4,7 @@
 	"kiwiServer": "https://localdev.clients.kiwiirc.com/webirc/kiwiirc/",
 	"restricted": true,
 	"sidebarDefault": true,
-	"direct":true,
+	"direct":false,
 	"theme": "Dark",
 	"remember_buffers":true,
 	"state_key":"kiwi",
