@@ -61,9 +61,9 @@
         },
         {
         "name": "Radio Navagio",
-        "image": "https://www.radio-navagio.ml/wpimages/wpdac6fd1e_06.png",
-        "source": "http://51.77.124.144:8045/stream",
-        "description": "Cyprus"
+        "image": "https://www.radio-navagio.com/wp-content/uploads/2019/10/navagio-new-final-white-e1571787274485.png",
+        "source": "https://cast.radio-navagio.com:7001/radio/8000/radio.mp3",
+        "description": "Cyprus @ https://www.radio-navagio.com/"
         },
 		{
         "name": "Radio Proto",
