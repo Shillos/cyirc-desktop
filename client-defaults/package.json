@@ -14,10 +14,10 @@
     "homepage": "https://cyirc.org"
   },
   "dependencies": {
-    "irc-framework": "^4.4.0",
+    "irc-framework": "^4.5.2",
     "os": "^0.1.1",
     "openurl":"^1.1.1",
-    "node-notifier":"^5.4.3",
+    "node-notifier":"^6.0.0",
     "striptags":"^3.1.1"
   }
 }
