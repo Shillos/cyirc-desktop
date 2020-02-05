@@ -14,7 +14,7 @@
     "homepage": "https://cyirc.org"
   },
   "dependencies": {
-    "irc-framework": "^4.5.2",
+    "irc-framework": "^4.6.0",
     "os": "^0.1.1",
     "openurl":"^1.1.1",
     "node-notifier":"^6.0.0",
