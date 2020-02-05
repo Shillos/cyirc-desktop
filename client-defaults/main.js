@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const electron = require('electron');
 // Module to control application life.
 const app = electron.app;
@@ -21,7 +22,7 @@ var yummy_cookies ={};
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow
+let mainWindow;
 
 /* requestSingleInstanceLock should be used instead... :)
 
@@ -118,11 +119,11 @@ app.on('ready', function(){
     },
     {
       label: 'Show/Hide Window',
-      click: function(){ mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show(); }
+      click: function(){ mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show(); } // jshint ignore:line
     }
   ]);
   tray.on('click', () => {
-    mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show();
+    mainWindow.isVisible() ? mainWindow.hide() : mainWindow.show(); // jshint ignore:line
   });
 
   tray.setToolTip('CyIRC');

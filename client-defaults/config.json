@@ -98,7 +98,7 @@
 					"microphone", "camera", "fullscreen", "fodeviceselection", "hangup",
 					"settings", "videoquality", "filmstrip",
 					"stats", "shortcuts"
-					],
+					]
 				},
 				"configOverwrite": {
 				}

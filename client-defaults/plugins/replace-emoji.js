@@ -5,7 +5,7 @@ kiwi.plugin('replace-emoji', function(kiwi) {
             document.getElementsByClassName("kiwi-ircinput-editor")[0].addEventListener("keyup", function(event){
                 if (event.keyCode === 13) {
                     event.preventDefault();
-                    document.getElementsByClassName("kiwi-ircinput-editor")[0].innerHTML = emoji.replace_colons(document.getElementsByClassName("kiwi-ircinput-editor")[0].innerHTML)
+                    document.getElementsByClassName("kiwi-ircinput-editor")[0].innerHTML = emoji.replace_colons(document.getElementsByClassName("kiwi-ircinput-editor")[0].innerHTML);
                     document.getElementsByClassName("kiwi-ircinput-editor")[0].click();
                 }
             });
