@@ -1,5 +1,5 @@
 {
-  "name": "CyIRC-Desktop",
+  "name": "cyirc-desktop",
   "main": "main.js",
   "version": "1.0.2",
   "description": "A desktop client for CyIRC.",
