@@ -1,5 +1,5 @@
 {
-	"windowTitle": "CyIRC",
+	"windowTitle": "CyIRC Desktop",
 	"startupScreen": "welcome",
 	"kiwiServer": "https://localdev.clients.kiwiirc.com/webirc/kiwiirc/",
 	"restricted": true,
@@ -35,14 +35,14 @@
 		"nick": "user?",
 		"buttonText": "Start",
 		"infoContent": "CyIRC Rocks!",
-		"infoBackground": "img/background.jpg"
+		"infoBackground": "https://source.unsplash.com/random/?nature"
 	},
 	"buffers": {
 		"show_hostnames": true,
 		"show_realnames": true,
 		"show_emoticons": true,
 		"traffic_as_activity": true,
-		"auto_reconnect": false,
+		"nicklist_avatars": true,
 		"show_joinparts": true,
 		"extra_formatting": true,
 		"colour_nicknames_in_messages": true,
