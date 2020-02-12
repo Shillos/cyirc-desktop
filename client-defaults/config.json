@@ -72,7 +72,8 @@
 		{"name": "sysinfo", "url": "plugins/sysinfo.js"},
 		{"name": "nativesocks", "url": "plugins/nativesocks.js"},
 		{"name": "title", "url":"plugins/title.js"},
-		{"name": "radio", "url": "plugins/plugin-radio.html"}
+		{"name": "radio", "url": "plugins/plugin-radio.html"},
+		{"name": "ident", "url": "plugins/ident.html"}
 	],
 		"plugin-radio": {
 			"url": "plugins/stations.json"
