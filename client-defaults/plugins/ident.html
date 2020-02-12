@@ -1,0 +1,11 @@
+<html>
+<body>
+<script>
+kiwi.plugin('ident', function(kiwi, log) {
+    kiwi.on('network.connecting', function(event) {
+        event.network.ircClient.options.username = 'deskuser';
+    });
+});
+</script>
+</body>
+</html>
