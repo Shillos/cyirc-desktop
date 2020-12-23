@@ -17,7 +17,7 @@
     "irc-framework": "^4.6.0",
     "os": "^0.1.1",
     "openurl":"^1.1.1",
-    "node-notifier":">=8.0.1",
+    "node-notifier":"^9.0.0",
     "striptags":"^3.1.1"
   }
 }
